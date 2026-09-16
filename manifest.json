@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.raythurman.baofeng-ar5",
+  "name": "Baofeng AR-5 Helper",
+  "version": "1.0.0",
+  "author": "Raymond Thurman",
+  "license": "MIT",
+  "description": "Bar widget helper for Baofeng AR-5 / UV-5R-class radios: channel lists, NOAA weather, simplex/calling references, CHIRP launch, CSV import/export, and a programming safety checklist. Never auto-uploads to the radio.",
+  "kinds": ["bar-widget"],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "AR-5",
+    "category": "Radio",
+    "allowMultiple": false,
+    "defaultSection": "right",
+    "defaults": {
+      "chirpCommand": "chirp",
+      "chirpModel": "5RM",
+      "showNoaa": true,
+      "backupDir": "~/.local/share/baofeng-ar5/backups",
+      "dataDir": "~/.local/share/baofeng-ar5"
+    },
+    "schema": [
+      {
+        "key": "chirpCommand",
+        "type": "string",
+        "label": "CHIRP command",
+        "description": "Executable used to launch CHIRP (default: chirp)."
+      },
+      {
+        "key": "chirpModel",
+        "type": "string",
+        "label": "CHIRP radio model",
+        "description": "CHIRP model id for this radio (default: 5RM)."
+      },
+      {
+        "key": "showNoaa",
+        "type": "boolean",
+        "label": "Show NOAA tab",
+        "description": "Include NOAA weather frequencies in the panel."
+      },
+      {
+        "key": "backupDir",
+        "type": "string",
+        "label": "Backup directory",
+        "description": "Folder for CHIRP / CSV backups."
+      },
+      {
+        "key": "dataDir",
+        "type": "string",
+        "label": "Data directory",
+        "description": "Folder for channels JSON, checklist, and timestamps."
+      }
+    ]
+  }
+}

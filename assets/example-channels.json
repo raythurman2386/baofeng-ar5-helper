@@ -1,0 +1,69 @@
+{
+  "label": "Example memory channels (replace with your download from the radio)",
+  "channels": [
+    {
+      "Location": 0,
+      "Name": "Local Rpt (example)",
+      "Frequency": "146.940",
+      "Duplex": "-",
+      "Offset": "0.600000",
+      "Tone": "Tone",
+      "rToneFreq": "100.0",
+      "cToneFreq": "100.0",
+      "DtcsCode": "023",
+      "DtcsPolarity": "NN",
+      "Mode": "FM",
+      "TStep": "5.00",
+      "Skip": "",
+      "Power": "High"
+    },
+    {
+      "Location": 1,
+      "Name": "Club Simplex (example)",
+      "Frequency": "146.520",
+      "Duplex": "",
+      "Offset": "0.000000",
+      "Tone": "",
+      "rToneFreq": "88.5",
+      "cToneFreq": "88.5",
+      "DtcsCode": "023",
+      "DtcsPolarity": "NN",
+      "Mode": "FM",
+      "TStep": "5.00",
+      "Skip": "",
+      "Power": "High"
+    },
+    {
+      "Location": 2,
+      "Name": "UHF Rpt (example)",
+      "Frequency": "442.100",
+      "Duplex": "+",
+      "Offset": "5.000000",
+      "Tone": "Tone",
+      "rToneFreq": "88.5",
+      "cToneFreq": "88.5",
+      "DtcsCode": "023",
+      "DtcsPolarity": "NN",
+      "Mode": "FM",
+      "TStep": "5.00",
+      "Skip": "",
+      "Power": "High"
+    },
+    {
+      "Location": 3,
+      "Name": "NOAA WX1 (ref)",
+      "Frequency": "162.550",
+      "Duplex": "",
+      "Offset": "0.000000",
+      "Tone": "",
+      "rToneFreq": "88.5",
+      "cToneFreq": "88.5",
+      "DtcsCode": "023",
+      "DtcsPolarity": "NN",
+      "Mode": "NFM",
+      "TStep": "5.00",
+      "Skip": "",
+      "Power": "Low"
+    }
+  ]
+}
